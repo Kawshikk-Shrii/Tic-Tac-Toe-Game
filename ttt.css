@@ -1,0 +1,103 @@
+.body{
+    justify-content: center;
+    align-items: center;
+    margin: 0;
+}
+*{
+    background-color:black;
+    margin: 0px;
+    padding: 0px;
+    align-items: center;
+}
+
+h1{
+    color:antiquewhite;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    margin: 25px;
+    align-items: center;
+    text-align: center;
+}
+
+.board{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    column-gap: 15px;
+    align-items: center;
+    background-color: aqua;
+    border: 5px solid blue;
+    padding: 20px;
+    margin: 5px;
+    text-align: center;
+    height: 60vmin;
+    width: 60vmin;
+    border-radius: 1rem;
+} 
+
+.container{
+    height: 65vh;
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.box{
+    background-color: brown;
+    height: 18vmin;
+    width: 18vmin;
+    border-radius: 1rem;
+    border: none;
+    box-shadow: 0 0 1rem rgba(1, 0, 0, 0.56);
+    font-size:8vmin;
+    color: beige;
+    font-style: oblique;
+    font-weight: 600;
+}
+
+#reset-btn {
+    padding: 1rem;
+    font-size: 1.25rem;
+    background-color: white;
+    color: darkblue;
+    border: none;
+    border-radius: 2rem;
+    margin: 40px auto; /* this centers it */
+    display: block;
+}
+
+
+#new-btn{
+    display: flex;
+    padding: 1rem;
+    font-size: 1.25rem;
+    background-color:white;
+    color:darkblue;
+    border-radius: 2rem;
+    border-bottom: 1rem;
+    align-items: center;
+    justify-content: center;
+    border: none;
+    border-radius: 2rem;
+    border-bottom: 1rem;
+}
+
+#msg{
+    color: antiquewhite;
+    align-content: center;
+    font-size: 50px;
+}
+
+.msg-container {
+    height: 100vmin;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 1rem; /* spacing between msg and buttons */
+    margin-top: 20px;
+}
+
+.hide{
+    display: none;
+}  
